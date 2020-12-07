@@ -10,12 +10,7 @@ import tournease1 from '../assets/images/tournease1.png';
 import barhop1 from '../assets/images/barhop1.png';
 import poolquiz1 from '../assets/images/poolquiz1.png';
 
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
+
 import macbanner from '../assets/images/macbanner.png';
 import Scroll from '../components/Scroll';
 
