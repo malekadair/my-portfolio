@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `https://malekadair.github.io/my-portfolio/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `https://malekadair.github.io/my-portfolio/assets/`, // This path is subpath of your hosting https://domain/portfolio
   authorName: 'Malek Haj-Hussein',
   heading: 'Software Engineer',
   // social
