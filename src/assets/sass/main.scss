@@ -523,6 +523,8 @@
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		transition: all .3s ease-out;
+
 
 		header {
 			background: #fff;
@@ -531,11 +533,15 @@
 			font-size: 0.8em;
 
 			h3 {
-				font-size: 1em;
+				font-size: 1.5em;
 			}
 		}
 	}
 
+	.item:hover{
+		box-shadow: 0 0.25em 0.35em 0 rgba(0, 0, 0, 0.25);
+		transition: all .3s ease-out;
+	}
 /* Icons */
 
 	.icon {
@@ -759,7 +765,7 @@
 
 			&.one {
 				background-color: #81918E;
-				background-image: url('../images/banner.jpg');
+				background-image: url('../images/mountains3.png');
 			}
 
 			&.two {

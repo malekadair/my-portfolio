@@ -4,13 +4,19 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
+
+import gottalotto1 from '../assets/images/gottalotto1.png';
+import tournease1 from '../assets/images/tournease1.png';
+import barhop1 from '../assets/images/barhop1.png';
+import poolquiz1 from '../assets/images/poolquiz1.png';
+
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
-import pic8 from '../assets/images/pic08.jpg';
+import macbanner from '../assets/images/macbanner.png';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -29,11 +35,11 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hi! I'm <strong>Malek</strong>
               <br />
-              Web developer
+              Software Engineer
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>Here are a few of my projects</p>
           </header>
 
           <footer>
@@ -53,50 +59,98 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            I'm constantly working on new projects and trying new approaches in order to stay up to
+            with modern technologies. Here are a few of my more recent projects:
           </p>
 
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic2} alt="" />
+                <a href="https://malekandgrace-gottalotto.now.sh/" target="_blank" className="image fit">
+                  <img src={gottalotto1} alt="GottaLotto Project Screenshot" />
+                  <header>
+                    <h3>GottaLotto</h3>
+                  </header>
                 </a>
-                <header>
-                  <h3>Ipsum Feugiat</h3>
-                </header>
+                <body>
+                  <a
+                    className="repo-link"
+                    href="https://github.com/gracebodur/gottalotto-client"
+                    target="_blank"
+                  >
+                    <span className="icon fa-code" />Client Repo
+                  </a><br />
+                  <a
+                    className="repo-link"
+                    href="https://github.com/gracebodur/gottalotto-api"
+                    target="_blank"
+                  >
+                    <span className="icon fa-code" />Server Repo
+                  </a>
+                </body>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic3} alt="" />
+                <a href="https://tournease-client.malekadair.now.sh/" target="_blank" className="image fit">
+                  <img src={tournease1} alt="TournEase Project Screenshot" />
+                  <header>
+                    <h3>TournEase</h3>
+                  </header>
                 </a>
-                <header>
-                  <h3>Rhoncus Semper</h3>
-                </header>
+                <body>
+                  <a
+                    className="repo-link"
+                    href="https://github.com/malekadair/tournease-client"
+                    target="_blank"
+                  >
+                    <span className="icon fa-code" />Client Repo
+                  </a><br />
+                  <a
+                    className="repo-link"
+                    href="https://github.com/malekadair/tournease-server"
+                    target="_blank"
+                  >
+                    <span className="icon fa-code" />Server Repo
+                </a>
+                </body>
               </article>
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic4} alt="" />
+                <a href="https://malekadair.github.io/barhop/" target="_blank" className="image fit">
+                  <img src={barhop1} alt="BarHop Project Screenshot" />
+                  <header>
+                    <h3>BarHop</h3>
+                  </header>
                 </a>
-                <header>
-                  <h3>Magna Nullam</h3>
-                </header>
+                <body>
+                  <a
+                    className="repo-link"
+                    href="https://github.com/malekadair/barhop"
+                    target="_blank"
+                  >
+                    <span className="icon fa-code" />Project Repo
+                  </a><br />
+                </body>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic5} alt="" />
+                <a href="https://malekadair.github.io/quiz-app/" target="_blank" className="image fit">
+                  <img src={poolquiz1} alt="Pool Quiz Project Screenshot" />
+                  <header>
+                    <h3>Pool Quiz</h3>
+                  </header>
                 </a>
-                <header>
-                  <h3>Natoque Vitae</h3>
-                </header>
+                <body>
+                  <a
+                    className="repo-link"
+                    href="https://github.com/malekadair/quiz-app"
+                    target="_blank"
+                  >
+                    <span className="icon fa-code" />Project Repo
+                  </a><br />
+                </body>
               </article>
             </div>
-            <div className="col-4 col-12-mobile">
+            {/* <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
                   <img src={pic6} alt="" />
@@ -113,7 +167,7 @@ const IndexPage = () => (
                   <h3>Orci Convallis</h3>
                 </header>
               </article>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -124,18 +178,21 @@ const IndexPage = () => (
             <h2>About Me</h2>
           </header>
 
-          <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
-          </a>
+          {/* <a href="/#" className="image featured"> */}
+          <img className="image featured" src={macbanner} alt="" />
+          {/* </a> */}
 
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+            I feel that I've always had the mind of a developer but have never
+            had the opportunity to "develop" my skills enough to be dangerous until
+            diving head-first into Thinkful’s bootcamp. I look forward to the
+            future of working on a team alongside other great developers. What better
+            atmosphere to continue growing and learning from others?
+            <br />
+            <br />
+            When I'm not coding, you'll likely find me playing pool, mountain biking,
+            or working on side projects. Each challenging in its own way. These challenges
+            are what drive my passion for continuous growth.
           </p>
         </div>
       </section>
@@ -147,11 +204,7 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            Feel free to drop me a line.
           </p>
 
           <form method="post" action="#">
@@ -174,7 +227,7 @@ const IndexPage = () => (
       </section>
     </div>
 
-    <PageFooter />
+    {/* <PageFooter /> */}
   </Layout>
 );
 
