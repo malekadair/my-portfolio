@@ -97,14 +97,14 @@ const IndexPage = () => (
                     href="https://github.com/malekadair/tournease-client"
                     target="_blank"
                   >
-                    <span className="icon fa-laptop" />Client Repo
+                    <span className="icon fa-laptop" /> Client Repo
                   </a><br />
                   <a
                     className="repo-link"
                     href="https://github.com/malekadair/tournease-server"
                     target="_blank"
                   >
-                    <span className="icon fa-server" />Server Repo
+                    <span className="icon fa-server" /> Server Repo
                 </a>
                 </body>
               </article>
@@ -123,7 +123,7 @@ const IndexPage = () => (
                     href="https://github.com/malekadair/barhop"
                     target="_blank"
                   >
-                    <span className="icon fa-code" />Project Repo
+                    <span className="icon fa-code" /> Project Repo
                   </a><br />
                 </body>
               </article>
@@ -140,7 +140,7 @@ const IndexPage = () => (
                     href="https://github.com/malekadair/quiz-app"
                     target="_blank"
                   >
-                    <span className="icon fa-code" />Project Repo
+                    <span className="icon fa-code" /> Project Repo
                   </a><br />
                 </body>
               </article>
@@ -197,22 +197,28 @@ const IndexPage = () => (
           <header>
             <h2>Resume</h2>
           </header>
-
           <p>
             <a href="https://cdn.brandfolder.io/MLAUM12T/as/2hbfhspsbt9pm2jxrkkwgbw/Resume.pdf" style={{ fontWeight: "500" }} download target="_blank" >Click here</a> to download my full Resume
           </p>
-          {/* https://cdn.brandfolder.io/MLAUM12T/as/2hbfhspsbt9pm2jxrkkwgbw/Resume.pdf */}
-          {/* <embed src={resume} /> */}
-
-
-          {/* <embed src="https://cdn.brandfolder.io/MLAUM12T/as/wf3c57jv2njbxprmtmc8mj5w/New_Resume_1-1.pdf#view=Fit&statusbar=0&toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" scrolling="no" /> */}
           <div className="row" >
             <div className="col-6 col-12-mobile" style={{ textAlign: "center" }} >
-              <embed src="https://cdn.brandfolder.io/MLAUM12T/as/wf3c57jv2njbxprmtmc8mj5w/New_Resume_1-1.pdf#view=Fit&statusbar=0&toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" style={{ width: "315px", height: "405px" }} className="item" />
+              <embed
+                src="https://cdn.brandfolder.io/MLAUM12T/as/wf3c57jv2njbxprmtmc8mj5w/New_Resume_1-1.pdf#view=Fit&statusbar=0&toolbar=0&navpanes=0&scrollbar=0"
+                type="application/pdf"
+                style={{
+                  width: "315px",
+                  height: "405px",
+                }} className="item"
+              />
               <p>Page 1</p>
             </div>
             <div className="col-6 col-12-mobile" style={{ textAlign: "center" }} >
-              <embed src="https://cdn.brandfolder.io/MLAUM12T/as/wf3c57jv2njbxprmtmc8mj5w/New_Resume_1-1.pdf?position=2#view=Fit&statusbar=0&toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" style={{ width: "315px", height: "405px" }} className="item" />
+              <embed
+                src="https://cdn.brandfolder.io/MLAUM12T/as/wf3c57jv2njbxprmtmc8mj5w/New_Resume_1-1.pdf?position=2#view=Fit&statusbar=0&toolbar=0&navpanes=0&scrollbar=0"
+                type="application/pdf"
+                style={{ width: "315px", height: "405px" }}
+                className="item"
+              />
               <p>Page 2</p>
             </div>
           </div>
