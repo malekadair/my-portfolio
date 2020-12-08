@@ -59,7 +59,7 @@ const IndexPage = () => (
           </p>
 
           <div className="row">
-            <div className="col-4 col-12-mobile">
+            <div className="col-6 col-12-mobile">
               <article className="item">
                 <a href="https://malekandgrace-gottalotto.now.sh/" target="_blank" className="image fit">
                   <img src={gottalotto1} alt="GottaLotto Project Screenshot" />
@@ -109,7 +109,7 @@ const IndexPage = () => (
                 </body>
               </article>
             </div>
-            <div className="col-4 col-12-mobile">
+            <div className="col-6 col-12-mobile">
               <article className="item">
                 <a href="https://malekadair.github.io/barhop/" target="_blank" className="image fit">
                   <img src={barhop1} alt="BarHop Project Screenshot" />
