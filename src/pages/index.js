@@ -30,11 +30,9 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Malek</strong>
-              <br />
-              Software Engineer
+              Hi, my name is <strong>Malek</strong>
             </h2>
-            <p>Here are a few of my projects</p>
+            <p>I've made a few things that you should check out.</p>
           </header>
 
           <footer>
@@ -54,7 +52,7 @@ const IndexPage = () => (
           </header>
 
           <p>
-            I'm constantly working on new projects and trying new approaches in order to stay up to
+            I'm always working on new projects and trying new approaches in order to stay up to
             with modern technologies. Here are a few of my more recent projects:
           </p>
 
