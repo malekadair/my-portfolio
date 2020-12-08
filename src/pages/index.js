@@ -10,6 +10,8 @@ import tournease1 from '../assets/images/tournease1.png';
 import barhop1 from '../assets/images/barhop1.png';
 import poolquiz1 from '../assets/images/poolquiz1.png';
 
+// import resume from '../assets/pdfs/New_Resume.PDF';
+
 
 import macbanner from '../assets/images/macbanner.png';
 import Scroll from '../components/Scroll';
@@ -18,7 +20,7 @@ const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
   { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
-  { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
+  { id: 'resume', name: 'Resume', icon: 'fa-file' },
 ];
 
 const IndexPage = () => (
@@ -71,14 +73,14 @@ const IndexPage = () => (
                     href="https://github.com/gracebodur/gottalotto-client"
                     target="_blank"
                   >
-                    <span className="icon fa-code" />Client Repo
+                    <span className="icon fa-laptop" /> Client Repo
                   </a><br />
                   <a
                     className="repo-link"
                     href="https://github.com/gracebodur/gottalotto-api"
                     target="_blank"
                   >
-                    <span className="icon fa-code" />Server Repo
+                    <span className="icon fa-server" /> Server Repo
                   </a>
                 </body>
               </article>
@@ -95,14 +97,14 @@ const IndexPage = () => (
                     href="https://github.com/malekadair/tournease-client"
                     target="_blank"
                   >
-                    <span className="icon fa-code" />Client Repo
+                    <span className="icon fa-laptop" />Client Repo
                   </a><br />
                   <a
                     className="repo-link"
                     href="https://github.com/malekadair/tournease-server"
                     target="_blank"
                   >
-                    <span className="icon fa-code" />Server Repo
+                    <span className="icon fa-server" />Server Repo
                 </a>
                 </body>
               </article>
@@ -190,17 +192,35 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="contact" className="four">
+      <section id="resume" className="four">
         <div className="container">
           <header>
-            <h2>Contact</h2>
+            <h2>Resume</h2>
           </header>
 
           <p>
-            Feel free to drop me a line.
+            <a href="https://cdn.brandfolder.io/MLAUM12T/as/2hbfhspsbt9pm2jxrkkwgbw/Resume.pdf" style={{ fontWeight: "500" }} download target="_blank" >Click here</a> to download my full Resume
           </p>
+          {/* https://cdn.brandfolder.io/MLAUM12T/as/2hbfhspsbt9pm2jxrkkwgbw/Resume.pdf */}
+          {/* <embed src={resume} /> */}
 
-          <form method="post" action="#">
+
+          {/* <embed src="https://cdn.brandfolder.io/MLAUM12T/as/wf3c57jv2njbxprmtmc8mj5w/New_Resume_1-1.pdf#view=Fit&statusbar=0&toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" scrolling="no" /> */}
+          <div className="row" >
+            <div className="col-6 col-12-mobile" style={{ textAlign: "center" }} >
+              <embed src="https://cdn.brandfolder.io/MLAUM12T/as/wf3c57jv2njbxprmtmc8mj5w/New_Resume_1-1.pdf#view=Fit&statusbar=0&toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" style={{ width: "315px", height: "405px" }} className="item" />
+              <p>Page 1</p>
+            </div>
+            <div className="col-6 col-12-mobile" style={{ textAlign: "center" }} >
+              <embed src="https://cdn.brandfolder.io/MLAUM12T/as/wf3c57jv2njbxprmtmc8mj5w/New_Resume_1-1.pdf?position=2#view=Fit&statusbar=0&toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" style={{ width: "315px", height: "405px" }} className="item" />
+              <p>Page 2</p>
+            </div>
+          </div>
+
+          {/* <iframe src="https://cdn.brandfolder.io/MLAUM12T/as/2hbfhspsbt9pm2jxrkkwgbw/Resume.pdf" style={{ width: "100%", height: "1300px", border: "none" }} className="col-12" /> */}
+
+
+          {/* <form method="post" action="#">
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
@@ -215,7 +235,7 @@ const IndexPage = () => (
                 <input type="submit" value="Send Message" />
               </div>
             </div>
-          </form>
+          </form> */}
         </div>
       </section>
     </div>
