@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
 
@@ -58,6 +57,7 @@ const IndexPage = () => (
           </p>
 
           <div className="project-list">
+
             <div className="project-item">
               <div className="project-header">
                 <a href="https://malekandgrace-gottalotto.now.sh/" target="_blank" rel="noreferrer" className="image fit cover">
@@ -125,7 +125,6 @@ const IndexPage = () => (
                   </a>
               </div>
             </div>
-
 
             <div className="project-item">
               <div className="project-header">
