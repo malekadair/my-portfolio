@@ -308,12 +308,14 @@
 		img {
 			display: block;
 			width: 100%;
+			height: 15rem;
+   		object-fit: cover;
+    	object-position: top;
 		}
 
 		&.avatar48 {
 			width: 48px;
 			height: 48px;
-
 			img {
 				width: 48px;
 				height: 48px;
@@ -344,6 +346,9 @@
 				margin: 0 auto;
 				width: auto;
 			}
+		}
+		&.cover {
+			object-fit: cover;
 		}
 	}
 
@@ -520,6 +525,33 @@
 
 /* Item */
 
+	.project-list{
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		.project-item{
+			width: 45%;
+			// margin:10px;
+			flex: 1 0 auto;
+			box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+			margin: 10px;
+			.project-links{
+				padding: 1rem;
+				display: flex;
+				flex-flow: column;
+				align-content: center;
+				justify-content: center;
+				.repo-links{
+					font-size: 1.1rem;
+					margin: 0.25rem 0;
+					border-bottom: none;
+				}
+			}
+		}
+}
+
+
+
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
@@ -658,7 +690,7 @@
 						span:before {
 							color: #0187DE;
 						}
-					}
+					} 
 				}
 
 				a {

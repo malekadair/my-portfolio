@@ -58,10 +58,111 @@ const IndexPage = () => (
             with modern technologies. Here are a few of my more recent projects:
           </p>
 
-          <div className="row">
+          <div className="project-list">
+            <div className="project-item">
+              <div className="project-header">
+                <a href="https://malekandgrace-gottalotto.now.sh/" target="_blank" rel="noreferrer" className="image fit cover">
+                  <img src={gottalotto1} alt="GottaLotto Project Screenshot" />
+                  <h3 className="project-item-header">GottaLotto</h3>
+                </a>
+              </div>
+              <div className="project-links">
+                <a
+                  className="repo-link"
+                  href="https://github.com/gracebodur/gottalotto-client"
+                  target="_blank" rel="noreferrer"
+                >
+                  <span className="icon fa-laptop" /> Client Repo
+                  </a>
+                <a
+                  className="repo-link"
+                  href="https://github.com/gracebodur/gottalotto-api"
+                  target="_blank" rel="noreferrer"
+                >
+                  <span className="icon fa-server" /> Server Repo
+                  </a>
+              </div>
+            </div>
+
+            <div className="project-item">
+              <div className="project-header">
+                <a href="https://tournease-client.malekadair.now.sh/" target="_blank" rel="noreferrer" className="image fit cover">
+                  <img src={tournease1} alt="TournEase Project Screenshot" />
+                  <h3 className="project-item-header">TournEase</h3>
+                </a>
+              </div>
+              <div className="project-links">
+                <a
+                  className="repo-link"
+                  href="https://github.com/malekadair/tournease-client"
+                  target="_blank" rel="noreferrer"
+                >
+                  <span className="icon fa-laptop" /> Client Repo
+                  </a>
+                <a
+                  className="repo-link"
+                  href="https://github.com/malekadair/tournease-server"
+                  target="_blank" rel="noreferrer"
+                >
+                  <span className="icon fa-server" /> Server Repo
+                  </a>
+              </div>
+            </div>
+
+            <div className="project-item">
+              <div className="project-header">
+                <a href="https://malekadair.github.io/barhop/" target="_blank" rel="noreferrer" className="image fit cover">
+                  <img src={barhop1} alt="BarHop Project Screenshot" />
+                  <h3 className="project-item-header">BarHop</h3>
+                </a>
+              </div>
+              <div className="project-links">
+                <a
+                  className="repo-link"
+                  href="https://github.com/malekadair/barhop"
+                  target="_blank" rel="noreferrer"
+                >
+                  <span className="icon fa-code" /> Project Repo
+                  </a>
+              </div>
+            </div>
+
+
+            <div className="project-item">
+              <div className="project-header">
+                <a href="https://malekadair.github.io/quiz-app/" target="_blank" rel="noreferrer" className="image fit cover">
+                  <img src={poolquiz1} alt="Pool Quiz Project Screenshot" />
+                  <h3 className="project-item-header">Pool Quiz</h3>
+                </a>
+              </div>
+              <div className="project-links">
+                <a
+                  className="repo-link"
+                  href="https://github.com/malekadair/quiz-app"
+                  target="_blank" rel="noreferrer"
+                >
+                  <span className="icon fa-code" /> Project Repo
+                  </a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          {/* ------------------------------------------------------------------------------------- */}
+          {/* ------------------------------------------------------------------------------------- */}
+          {/* ------------------------------------------------------------------------------------- */}
+          {/* ------------------------------------------------------------------------------------- */}
+          {/* ------------------------------------------------------------------------------------- */}
+
+
+
+          {/* <div className="row">
             <div className="col-6 col-12-mobile">
               <article className="item">
-                <a href="https://malekandgrace-gottalotto.now.sh/" target="_blank" className="image fit">
+                <a href="https://malekandgrace-gottalotto.now.sh/" target="_blank" rel="noreferrer" className="image fit">
                   <img src={gottalotto1} alt="GottaLotto Project Screenshot" />
                   <header>
                     <h3>GottaLotto</h3>
@@ -71,21 +172,21 @@ const IndexPage = () => (
                   <a
                     className="repo-link"
                     href="https://github.com/gracebodur/gottalotto-client"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <span className="icon fa-laptop" /> Client Repo
                   </a><br />
                   <a
                     className="repo-link"
                     href="https://github.com/gracebodur/gottalotto-api"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <span className="icon fa-server" /> Server Repo
                   </a>
                 </body>
               </article>
               <article className="item">
-                <a href="https://tournease-client.malekadair.now.sh/" target="_blank" className="image fit">
+                <a href="https://tournease-client.malekadair.now.sh/" target="_blank" rel="noreferrer" className="image fit">
                   <img src={tournease1} alt="TournEase Project Screenshot" />
                   <header>
                     <h3>TournEase</h3>
@@ -95,14 +196,14 @@ const IndexPage = () => (
                   <a
                     className="repo-link"
                     href="https://github.com/malekadair/tournease-client"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <span className="icon fa-laptop" /> Client Repo
                   </a><br />
                   <a
                     className="repo-link"
                     href="https://github.com/malekadair/tournease-server"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <span className="icon fa-server" /> Server Repo
                 </a>
@@ -111,7 +212,7 @@ const IndexPage = () => (
             </div>
             <div className="col-6 col-12-mobile">
               <article className="item">
-                <a href="https://malekadair.github.io/barhop/" target="_blank" className="image fit">
+                <a href="https://malekadair.github.io/barhop/" target="_blank" rel="noreferrer" className="image fit">
                   <img src={barhop1} alt="BarHop Project Screenshot" />
                   <header>
                     <h3>BarHop</h3>
@@ -121,14 +222,14 @@ const IndexPage = () => (
                   <a
                     className="repo-link"
                     href="https://github.com/malekadair/barhop"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <span className="icon fa-code" /> Project Repo
                   </a><br />
                 </body>
               </article>
               <article className="item">
-                <a href="https://malekadair.github.io/quiz-app/" target="_blank" className="image fit">
+                <a href="https://malekadair.github.io/quiz-app/" target="_blank" rel="noreferrer" className="image fit">
                   <img src={poolquiz1} alt="Pool Quiz Project Screenshot" />
                   <header>
                     <h3>Pool Quiz</h3>
@@ -138,32 +239,15 @@ const IndexPage = () => (
                   <a
                     className="repo-link"
                     href="https://github.com/malekadair/quiz-app"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <span className="icon fa-code" /> Project Repo
                   </a><br />
                 </body>
               </article>
             </div>
-            {/* <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic6} alt="" />
-                </a>
-                <header>
-                  <h3>Dolor Penatibus</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic7} alt="" />
-                </a>
-                <header>
-                  <h3>Orci Convallis</h3>
-                </header>
-              </article>
-            </div> */}
-          </div>
+
+          </div> */}
         </div>
       </section>
 
@@ -198,7 +282,7 @@ const IndexPage = () => (
             <h2>Resume</h2>
           </header>
           <p>
-            <a href="https://cdn.brandfolder.io/MLAUM12T/as/2hbfhspsbt9pm2jxrkkwgbw/Resume.pdf" style={{ fontWeight: "500" }} download target="_blank" >Click here</a> to download my full Resume
+            <a href="https://cdn.brandfolder.io/MLAUM12T/as/2hbfhspsbt9pm2jxrkkwgbw/Resume.pdf" style={{ fontWeight: "500" }} download target="_blank" rel="noreferrer"  >Click here</a> to download my full Resume
           </p>
           <div className="row" >
             <div className="col-6 col-12-mobile" style={{ textAlign: "center" }} >
