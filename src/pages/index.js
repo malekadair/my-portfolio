@@ -10,7 +10,6 @@ import tournease1 from '../assets/images/tournease1.png';
 import barhop1 from '../assets/images/barhop1.png';
 import poolquiz1 from '../assets/images/poolquiz1.png';
 
-// import resume from '../assets/pdfs/New_Resume.PDF';
 
 
 import macbanner from '../assets/images/macbanner.png';
@@ -146,108 +145,6 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-
-
-
-
-
-          {/* ------------------------------------------------------------------------------------- */}
-          {/* ------------------------------------------------------------------------------------- */}
-          {/* ------------------------------------------------------------------------------------- */}
-          {/* ------------------------------------------------------------------------------------- */}
-          {/* ------------------------------------------------------------------------------------- */}
-
-
-
-          {/* <div className="row">
-            <div className="col-6 col-12-mobile">
-              <article className="item">
-                <a href="https://malekandgrace-gottalotto.now.sh/" target="_blank" rel="noreferrer" className="image fit">
-                  <img src={gottalotto1} alt="GottaLotto Project Screenshot" />
-                  <header>
-                    <h3>GottaLotto</h3>
-                  </header>
-                </a>
-                <body>
-                  <a
-                    className="repo-link"
-                    href="https://github.com/gracebodur/gottalotto-client"
-                    target="_blank" rel="noreferrer"
-                  >
-                    <span className="icon fa-laptop" /> Client Repo
-                  </a><br />
-                  <a
-                    className="repo-link"
-                    href="https://github.com/gracebodur/gottalotto-api"
-                    target="_blank" rel="noreferrer"
-                  >
-                    <span className="icon fa-server" /> Server Repo
-                  </a>
-                </body>
-              </article>
-              <article className="item">
-                <a href="https://tournease-client.malekadair.now.sh/" target="_blank" rel="noreferrer" className="image fit">
-                  <img src={tournease1} alt="TournEase Project Screenshot" />
-                  <header>
-                    <h3>TournEase</h3>
-                  </header>
-                </a>
-                <body>
-                  <a
-                    className="repo-link"
-                    href="https://github.com/malekadair/tournease-client"
-                    target="_blank" rel="noreferrer"
-                  >
-                    <span className="icon fa-laptop" /> Client Repo
-                  </a><br />
-                  <a
-                    className="repo-link"
-                    href="https://github.com/malekadair/tournease-server"
-                    target="_blank" rel="noreferrer"
-                  >
-                    <span className="icon fa-server" /> Server Repo
-                </a>
-                </body>
-              </article>
-            </div>
-            <div className="col-6 col-12-mobile">
-              <article className="item">
-                <a href="https://malekadair.github.io/barhop/" target="_blank" rel="noreferrer" className="image fit">
-                  <img src={barhop1} alt="BarHop Project Screenshot" />
-                  <header>
-                    <h3>BarHop</h3>
-                  </header>
-                </a>
-                <body>
-                  <a
-                    className="repo-link"
-                    href="https://github.com/malekadair/barhop"
-                    target="_blank" rel="noreferrer"
-                  >
-                    <span className="icon fa-code" /> Project Repo
-                  </a><br />
-                </body>
-              </article>
-              <article className="item">
-                <a href="https://malekadair.github.io/quiz-app/" target="_blank" rel="noreferrer" className="image fit">
-                  <img src={poolquiz1} alt="Pool Quiz Project Screenshot" />
-                  <header>
-                    <h3>Pool Quiz</h3>
-                  </header>
-                </a>
-                <body>
-                  <a
-                    className="repo-link"
-                    href="https://github.com/malekadair/quiz-app"
-                    target="_blank" rel="noreferrer"
-                  >
-                    <span className="icon fa-code" /> Project Repo
-                  </a><br />
-                </body>
-              </article>
-            </div>
-
-          </div> */}
         </div>
       </section>
 
@@ -257,9 +154,7 @@ const IndexPage = () => (
             <h2>About Me</h2>
           </header>
 
-          {/* <a href="/#" className="image featured"> */}
           <img className="image featured" src={macbanner} alt="" />
-          {/* </a> */}
 
           <p>
             I feel that I've always had the mind of a developer but never
@@ -282,7 +177,7 @@ const IndexPage = () => (
             <h2>Resume</h2>
           </header>
           <p>
-            <a href="https://cdn.brandfolder.io/MLAUM12T/as/2hbfhspsbt9pm2jxrkkwgbw/Resume.pdf" style={{ fontWeight: "500" }} download target="_blank" rel="noreferrer"  >Click here</a> to download my full Resume
+            <a href="https://cdn.brandfolder.io/MLAUM12T/as/2hbfhspsbt9pm2jxrkkwgbw/Resume.pdf" style={{ fontWeight: "500" }} download target="_blank" rel="noreferrer"  >Click here</a> to view and download my full Resume
           </p>
           <div className="row" >
             <div className="col-6 col-12-mobile" style={{ textAlign: "center" }} >
@@ -306,31 +201,9 @@ const IndexPage = () => (
               <p>Page 2</p>
             </div>
           </div>
-
-          {/* <iframe src="https://cdn.brandfolder.io/MLAUM12T/as/2hbfhspsbt9pm2jxrkkwgbw/Resume.pdf" style={{ width: "100%", height: "1300px", border: "none" }} className="col-12" /> */}
-
-
-          {/* <form method="post" action="#">
-            <div className="row">
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="name" placeholder="Name" />
-              </div>
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email" />
-              </div>
-              <div className="col-12">
-                <textarea name="message" placeholder="Message" />
-              </div>
-              <div className="col-12">
-                <input type="submit" value="Send Message" />
-              </div>
-            </div>
-          </form> */}
         </div>
       </section>
     </div>
-
-    {/* <PageFooter /> */}
   </Layout>
 );
 
