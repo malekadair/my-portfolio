@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
+import icon from '../assets/img/website-icon.png'
 
 import '../assets/sass/main.scss';
 
@@ -46,6 +47,7 @@ class Layout extends Component {
               meta={[
                 { name: 'description', content: 'This portfolio should give you a small glimpse into the world of Malek Haj-Hussein.' },
                 { name: 'keywords', content: 'site, web' },
+                { name: 'image', content: { icon } }
               ]}
             >
               <html lang="en" />
